@@ -1,0 +1,11 @@
+= Secure Server
+
+This script allows to run a Webrick server with SSL enabled in a Rails 2.3.8 project. It's a quick and dirty script, but may help someone... :-)
+
+= Installation
+
+Place the script secure_server in the application's scripts folder. Run the script with the command:
+
+  script/secure_server
+
+Server will start and will listen to http://localhost:3433.
